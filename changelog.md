@@ -1,3 +1,7 @@
+# 3.30.0
+- [FIXED] Make sqlite3 less verbose for performance to not create Error
+  objects on every query
+
 # 3.29.0
 - [FIXED] Transaction Name too long, transaction savepoints for SQL Server [#6972](https://github.com/sequelize/sequelize/pull/6972)
 
