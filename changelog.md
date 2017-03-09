@@ -1,3 +1,9 @@
+# 3.40.0
+
+- [FIXED] Add error handling inside afterExecute when running SQLite query
+- [FIXED] Make sqlite3 less verbose for performance to not create Error objects on every query
+- [FIXED] Quote column names within sqlite's removeColumnQuery()
+
 # 3.30.2
 - [FIXED] `previous` method gave wrong value back [#7189](https://github.com/sequelize/sequelize/pull/7189)
 - [FIXED] Fixes setAssociation with scope [#7223](https://github.com/sequelize/sequelize/pull/7223)
